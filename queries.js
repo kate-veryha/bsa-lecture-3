@@ -1,6 +1,6 @@
 db.people.find({
 	scores: {
-		"$elemMatch" : { score: { $gt: 50, $lt: 90}}
+		"$elemMatch" : { score: { $gt: 87, $lt: 93}}
 	}
 })
 
