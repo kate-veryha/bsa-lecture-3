@@ -17,3 +17,11 @@ db.people.aggregate([
 		'scores.score': { $gt: 90}
 	}}
 ])
+
+db.people.update(
+	{name: "Dusti Lemmond"},
+	{$set : {
+		"accepted" : true
+	}},
+	{multi: true}
+)
